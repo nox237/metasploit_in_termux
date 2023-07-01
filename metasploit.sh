@@ -98,6 +98,7 @@ rm -rf $PREFIX/opt/metasploit-framework
 
 echo
 center "*** Downloading..."
+mkdir -p $PREFIX/opt
 cd $PREFIX/opt
 git clone https://github.com/rapid7/metasploit-framework.git --depth=1
 
